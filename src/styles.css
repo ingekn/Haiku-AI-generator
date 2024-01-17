@@ -1,0 +1,60 @@
+body {
+  background-color: #e5f9f3;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: rgb(211 118 192);
+}
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.input-searchbar {
+  padding: 16px;
+  border: 1px solid #59575a;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+.submit-btn {
+  margin-left: 10px;
+  background: rgb(211 118 192);
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+  font-weight: 600;
+}
+.haiku {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  border-left: 3px solid #d374e3;
+  line-height: 2;
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+a {
+  /* color: #677beb; */
+  color: #d374e3;
+}
