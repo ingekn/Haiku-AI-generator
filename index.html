@@ -4,30 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Haiku Generator</title>
   </head>
   <body>
     <div class="container">
-      <h1>Say hi to the new Haiku generator</h1>
-
-      <form>
-        <input
-          type="text"
-          autofocus
-          autocomplete="off"
-          placeholder="Type the theme you want"
-          class="input-searchbar"
-        />
-        <input type="submit" value="Submit" class="submit-btn" />
-      </form>
+      <h1>Love Haiku?</h1>
+      <h2>Give it a go by selecting a theme</h2>
+      <div class="form-section">
+        <form id="form-submit">
+          <input
+            type="text"
+            autofocus="true"
+            autocomplete="off"
+            placeholder="Type the theme you want"
+            class="input-searchbar"
+            id="theme-input"
+          />
+          <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+        <p class="example-input">Example: dance, love, grace, peace, animals</p>
+      </div>
+      <!-- <section id="haiku" class="haiku">
+        <p>In the vast cosmos,</p>
+        <p>Lost soul yearns for a purpose,</p>
+        <p>Theme is yet to find.</p>
+      </section> -->
 
       <section id="haiku" class="haiku">
-        An old silent pond
-        <br />
-        A frog jumps into the pond
-        <br />
-        Splash! Silence again.
+        <p>In search of a theme,</p>
+        <p>Mind wanders, choices abound,</p>
+        <p>Haiku's essence found.</p>
       </section>
+
+      <!-- <section class="hidden">
+        <h2>See here for more inspirational haiku's</h2>
+        <div id="affirmation" class="affirmation">
+          <p>From within, a light,</p>
+          <p>Affirmation grows strong,</p>
+          <p>Soul sings its true song.</p>
+        </div>
+        <button>Generate your own affirmation haiku</button>
+      </section> -->
       <footer>
         This project was coded by Inge Knot and is
         <a

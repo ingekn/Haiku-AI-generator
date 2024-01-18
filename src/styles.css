@@ -10,16 +10,31 @@ body {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 39px;
   line-height: 1.5;
   color: rgb(211 118 192);
 }
+h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgb(211 118 192);
+  margin-bottom: 30px;
+}
 form {
+  display: flex;
+}
+.form-section {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+}
+.example-input {
+  font-size: 12px;
+  margin: 13px;
+  opacity: 0.6;
 }
 .input-searchbar {
   padding: 16px;
@@ -40,7 +55,8 @@ form {
   padding: 14px 24px;
   font-weight: 600;
 }
-.haiku {
+.haiku,
+.affirmation {
   padding: 20px;
   background-color: white;
   border-radius: 10px;
