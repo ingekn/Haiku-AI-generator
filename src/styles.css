@@ -71,11 +71,10 @@ form {
 .affirmation {
   opacity: 0.9;
   padding: 20px;
+
   background-color: white;
   border-radius: 10px;
-  margin-bottom: 30px;
   font-size: 18px;
-
   border-left: 3px solid #76c4d1;
   line-height: 1.5;
 }

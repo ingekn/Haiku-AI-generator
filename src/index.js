@@ -3,10 +3,14 @@ function getAffirmation(event) {
 }
 
 function handleResponse(response) {
-  console.log(response.data.answer);
-  let haikuTextElement = document.querySelector("#haiku");
-  haikuTextElement.innerHTML = response.data.answer;
-  getAffirmation();
+  new Typewriter("#haiku", {
+    strings: response.data.answer,
+    autoStart: true,
+    cursor: null,
+    delay: 40,
+    skipAddStyles: true,
+  });
+  // getAffirmation();
 }
 
 function handleSubmit(event) {
