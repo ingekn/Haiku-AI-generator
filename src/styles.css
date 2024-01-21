@@ -16,7 +16,7 @@ footer {
   background-color: white;
   opacity: 0.9;
   border-radius: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 h1 {
@@ -88,4 +88,49 @@ footer {
 a {
   /* color: #677beb; */
   color: #398491;
+}
+@media (max-width: 680px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 560px) {
+  .container {
+    max-width: 410px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    max-width: 370px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    max-width: 320px;
+  }
+  h1 {
+    font-size: 29px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .form-section {
+    padding: 20px;
+  }
+  .example-input {
+    font-size: 10px;
+  }
+  .input-searchbar {
+    padding: 13px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .haiku {
+    font-size: 14px;
+  }
+  footer {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 30px;
+  }
 }
