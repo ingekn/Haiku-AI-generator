@@ -17,6 +17,7 @@ footer {
   opacity: 0.9;
   border-radius: 30px;
   margin-bottom: 10px;
+  box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 h1 {
   text-align: center;
@@ -42,6 +43,7 @@ form {
   border-radius: 10px;
   margin-bottom: 30px;
   opacity: 0.9;
+  box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 .example-input {
   font-size: 12px;
@@ -76,6 +78,7 @@ form {
   font-size: 18px;
   border-left: 3px solid #76c4d1;
   line-height: 1.5;
+  box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 footer {
   text-align: center;
