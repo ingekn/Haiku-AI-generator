@@ -67,11 +67,10 @@ form {
   padding: 14px 24px;
   font-weight: 600;
 }
-.haiku,
-.affirmation {
+.haiku {
   opacity: 0.9;
   padding: 20px;
-
+  margin-bottom: 30px;
   background-color: white;
   border-radius: 10px;
   font-size: 18px;
