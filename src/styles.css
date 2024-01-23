@@ -89,6 +89,26 @@ a {
   /* color: #677beb; */
   color: #398491;
 }
+.blink-text {
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 @media (max-width: 680px) {
   .container {
     max-width: 500px;
