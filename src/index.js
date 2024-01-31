@@ -12,8 +12,12 @@ function handleResponse(response) {
 function handleSubmit(event) {
   event.preventDefault();
   let chosenTheme = document.querySelector("#theme-input").value;
+  if (chosenTheme.length) {
+    haikuElement.innerHTML = `Creating Haiku with the theme: ${chosenTheme}`;
+  } else {
+    haikuElement.innerHTML = `No theme provided, creating Haiku about choosing a theme`;
+  }
 
-  haikuElement.innerHTML = `Creating Haiku with the theme: ${chosenTheme}`;
   haikuElement.classList.add("blink", "blink-text");
   let apiKey = "1386aafaa966aa68e4520o87btc31531";
   let context =
