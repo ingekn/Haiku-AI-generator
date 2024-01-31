@@ -1,5 +1,4 @@
 body {
-  /* background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/138/original/redtigerk-51iM389LEuI-unsplash.jpg?1705621336"); */
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/111/140/original/pexels-samuel-walker-92340.jpg?1705621467");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,12 +10,13 @@ body {
   max-width: 600px;
 }
 header,
-footer {
+footer,
+section {
   padding: 10px;
   background-color: white;
   opacity: 0.9;
   border-radius: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 h1 {
@@ -39,15 +39,11 @@ form {
 }
 .form-section {
   padding: 30px;
-  background-color: white;
   border-radius: 10px;
-  margin-bottom: 30px;
-  opacity: 0.9;
-  box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 .example-input {
   font-size: 12px;
-  margin: 13px;
+  margin: 13px 13px 0px 13px;
   opacity: 0.7;
 }
 .input-searchbar {
@@ -70,23 +66,17 @@ form {
   font-weight: 600;
 }
 .haiku {
-  opacity: 0.9;
   padding: 20px;
-  margin-bottom: 30px;
-  background-color: white;
   border-radius: 10px;
   font-size: 18px;
   border-left: 3px solid #76c4d1;
   line-height: 1.5;
-  box-shadow: 2px 3px 2px 1px rgba(27, 71, 141, 0.1);
 }
 footer {
   text-align: center;
   font-size: 14px;
-  margin-top: 30px;
 }
 a {
-  /* color: #677beb; */
   color: #398491;
 }
 .blink-text {
